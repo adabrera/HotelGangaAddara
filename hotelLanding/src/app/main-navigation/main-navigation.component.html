@@ -1,0 +1,44 @@
+<ng-container>
+  <nav class="navbar navbar-expand-lg navbar-light navbar-main">
+    <div class="d-flex flex-grow-1">
+      <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+      <a class="navbar-brand" routerLink="home">
+        HOTEL GANGA ADDARA
+      </a>
+      <div class="w-100 text-right">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar7">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+    <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
+      <ul class="navbar-nav ml-auto flex-nowrap">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="home" routerLinkActive="active-list-item">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="rooms" routerLinkActive="active-list-item">ACCOMMODATION</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="dining" routerLinkActive="active-list-item">DINING</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="gallery" routerLinkActive="active-list-item">GALLERY</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="facilities" routerLinkActive="active-list-item">FACILITIES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="location" routerLinkActive="active-list-item">LOCATION</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="events" routerLinkActive="active-list-item">MEETINGS & EVENTS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="contact" routerLinkActive="active-list-item">CONTACT US</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <ng-content></ng-content>
+</ng-container>

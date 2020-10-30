@@ -1,0 +1,59 @@
+.picsum-img-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+h3 span {
+  background: rgba(0, 151, 19, 0.5);
+  padding: 10px;
+}
+
+mat-grid-list {
+  margin-top: 10px;
+}
+
+mat-divider {
+  border-top-width: 5px;
+  color: #00b2cc;
+  padding-bottom: 10px;
+}
+
+p {
+  text-align: justify;
+  color: white;
+  font-weight: 400;
+}
+
+img {
+  width: 100%;
+}
+
+.welcomeMessageGrid {
+  background-image: url('../../../assets/balconyView.jpg');
+  height: 350px;
+
+}
+
+.amenitiesGrid {
+  background: #3f4540;
+  height: 350px;
+}
+
+.welcomeHeading {
+  color: white;
+  font-family: 'Poiret One', cursive;
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.welcomeMessageWrap {
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 40px;
+  text-align: left;
+}
+
+.messageInner {
+  padding: 30px 30px;
+}
+

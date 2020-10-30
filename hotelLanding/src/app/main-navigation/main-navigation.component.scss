@@ -1,0 +1,22 @@
+.navbar-main {
+  height: 100px;
+  background: white;
+
+}
+
+.navbar_content {
+  margin-top: 30px;
+  height: 200px;
+}
+
+.navbar-brand {
+  color: darkblue;
+  font-family: "Arial Rounded MT Bold";
+  font-size: 30px;
+}
+
+.active-list-item {
+  color: #ffffff !important;
+  background-color: #19a352;
+  /* Note: You could also use a custom theme */
+}
